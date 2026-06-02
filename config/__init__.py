@@ -9,7 +9,7 @@ class Config:
     """集中管理所有可调参数，避免硬编码魔术数字"""
 
     # ===== 窗口 =====
-    WINDOW_TITLE: str = "视频转PPT/PDF"
+    WINDOW_TITLE: str = "mp4toppt"
     WINDOW_WIDTH: int = 900
     WINDOW_HEIGHT: int = 900
     WINDOW_MIN_WIDTH: int = 780

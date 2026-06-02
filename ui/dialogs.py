@@ -83,7 +83,7 @@ def show_about(parent):
                  text_color="#000000").pack(anchor="w", pady=(0, 12))
 
     content = (
-        "视频转 PPT/PDF 工具 v1.0\n\n"
+        "mp4toppt v1.0\n\n"
         "将视频文件批量转换为 PPT 或 PDF 文档。\n\n"
         "技术栈:\n"
         "  Python + CustomTkinter + OpenCV\n\n"
@@ -93,7 +93,7 @@ def show_about(parent):
         "  ✅ 修复静止检测时长偏差 Bug\n"
         "  ✅ 帧哈希缓存提升性能\n"
         "  ✅ 架构拆分，代码更易维护\n\n"
-        "© 2026 视频转 PPT/PDF Tool"
+        "© 2026 mp4toppt"
     )
     tb = ctk.CTkTextbox(frame, wrap="word", font=ctk.CTkFont(size=13),
                          fg_color="#f9f9fb", text_color="#000000",
@@ -120,7 +120,7 @@ def show_announcement(parent):
                  text_color="#000000").pack(anchor="w", pady=(0, 12))
 
     content = (
-        "感谢您使用视频转 PPT/PDF 工具！\n\n"
+        "感谢您使用 mp4toppt！\n\n"
         "v1.0 主要更新内容：\n"
         "  🐛 修复静止检测模式 Bug\n"
         "     - 实际所需时长是用户设定值数倍的问题\n\n"

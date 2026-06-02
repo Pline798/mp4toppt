@@ -1,4 +1,4 @@
-"""视频转PPT/PDF v1.0 - 入口文件"""
+"""mp4toppt v1.0 - 入口文件"""
 
 import sys
 sys.dont_write_bytecode = True

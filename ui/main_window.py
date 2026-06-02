@@ -1,4 +1,4 @@
-"""主应用类 - 视频转 PPT/PDF 图形界面"""
+"""主应用类 - mp4toppt 图形界面"""
 
 import os
 import subprocess
